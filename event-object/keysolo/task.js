@@ -17,7 +17,7 @@ class Game {
   }
 
   registerEvents() {
-    document.addEventListener("keydown", (event) => {
+    document.addEventListener('keydown', (event) => {
       const enteredSymbol = event.key.toLowerCase(); // Введённый символ
       const currentSymbol = this.currentSymbol.textContent.toLowerCase(); // Текущий символ
 
